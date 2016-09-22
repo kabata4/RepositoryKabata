@@ -1,11 +1,11 @@
 	import java.util.Scanner;
-	public class zadacha1906165
+	public class zadacha1909165
 	{
 	public static void main(String[] args) 
 	{
 
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Введите число: "); 
+		System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ Г·ГЁГ±Г«Г®: "); 
 		double a = scanner.nextDouble();     
 		double b =a/100;
 		double h =a/10;
