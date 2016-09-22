@@ -1,32 +1,32 @@
 import java.util.Scanner;
-  public class zadacha1906162 
+  public class zadacha1909162 
 {
   public static void main (String[]args) 
 {
 Scanner scanner = new Scanner(System.in);
-System.out.println("Введите x1: ");          //ввод координат
+System.out.println("Г‚ГўДєГ¤ДЌЕ€Дє x1: ");          //ГўГўГ®Г¤ Д™Г®Г®Д‘Г¤ДЌГ­Е•Е€
 double xa = scanner.nextDouble();             
-System.out.println("Введите y1: ");          //ввод координат
+System.out.println("Г‚ГўДєГ¤ДЌЕ€Дє y1: ");          //ГўГўГ®Г¤ Д™Г®Г®Д‘Г¤ДЌГ­Е•Е€
 double ya = scanner.nextDouble();                 
-System.out.println("Введите x2: ");          //ввод координат
+System.out.println("Г‚ГўДєГ¤ДЌЕ€Дє x2: ");          //ГўГўГ®Г¤ Д™Г®Г®Д‘Г¤ДЌГ­Е•Е€
 double xb = scanner.nextDouble();                    
-System.out.println("Введите y2: ");          //ввод координат
+System.out.println("Г‚ГўДєГ¤ДЌЕ€Дє y2: ");          //ГўГўГ®Г¤ Д™Г®Г®Д‘Г¤ДЌГ­Е•Е€
 double yb = scanner.nextDouble();                   
-System.out.println("Введите x3: ");          //ввод координат
+System.out.println("Г‚ГўДєГ¤ДЌЕ€Дє x3: ");          //ГўГўГ®Г¤ Д™Г®Г®Д‘Г¤ДЌГ­Е•Е€
 double xc = scanner.nextDouble();                      
-System.out.println("Введите y3: ");          //ввод координат
+System.out.println("Г‚ГўДєГ¤ДЌЕ€Дє y3: ");          //ГўГўГ®Г¤ Д™Г®Г®Д‘Г¤ДЌГ­Е•Е€
 double yc = scanner.nextDouble();             
 double a = Math.sqrt(Math.pow(xb-xa, 2) + Math.pow(yb-ya, 2));
 double b = Math.sqrt(Math.pow(xc-xb, 2) + Math.pow(yc-yb, 2));
 double c = Math.sqrt(Math.pow(xc-xa, 2) + Math.pow(yc-ya, 2));
-double P = a+b+c;                            //нахождение Периметра
-double p = P/2;                              //нахождение Полупериметра
-double S =Math.sqrt(p*(p-a)*(p-b)*(p-c));    //нахождение Площади
-System.out.println("AB:"+a);                 //вывод на экран стороны AB
-System.out.println("BC:"+b);                 //вывод на экран стороны BC
-System.out.println("CA:"+c);                 //вывод на экран стороны AC
-System.out.println("Периметр равен:"+P);     //вывод на экран Периметра
-System.out.println("Площадь: " +S);          //вывод на экран Площадь
+double P = a+b+c;                            //Г­Е•Е‘Г®Д‡Г¤ДєГ­ДЌДє ДЋДєД‘ДЌД›ДєЕ€Д‘Е•
+double p = P/2;                              //Г­Е•Е‘Г®Д‡Г¤ДєГ­ДЌДє ДЋГ®Г«ГіДЏДєД‘ДЌД›ДєЕ€Д‘Е•
+double S =Math.sqrt(p*(p-a)*(p-b)*(p-c));    //Г­Е•Е‘Г®Д‡Г¤ДєГ­ДЌДє ДЋГ«Г®ЕЇЕ•Г¤ДЌ
+System.out.println("AB:"+a);                 //ГўЕ±ГўГ®Г¤ Г­Е• ГЅД™Д‘Е•Г­ Е„Е€Г®Д‘Г®Г­Е± AB
+System.out.println("BC:"+b);                 //ГўЕ±ГўГ®Г¤ Г­Е• ГЅД™Д‘Е•Г­ Е„Е€Г®Д‘Г®Г­Е± BC
+System.out.println("CA:"+c);                 //ГўЕ±ГўГ®Г¤ Г­Е• ГЅД™Д‘Е•Г­ Е„Е€Г®Д‘Г®Г­Е± AC
+System.out.println("ДЋДєД‘ДЌД›ДєЕ€Д‘ Д‘Е•ГўДєГ­:"+P);     //ГўЕ±ГўГ®Г¤ Г­Е• ГЅД™Д‘Е•Г­ ДЋДєД‘ДЌД›ДєЕ€Д‘Е•
+System.out.println("ДЋГ«Г®ЕЇЕ•Г¤Гј: " +S);          //ГўЕ±ГўГ®Г¤ Г­Е• ГЅД™Д‘Е•Г­ ДЋГ«Г®ЕЇЕ•Г¤Гј
 }		
 }
 
