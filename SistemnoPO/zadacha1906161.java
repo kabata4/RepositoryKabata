@@ -1,19 +1,19 @@
 import java.util.Scanner;
-public class задача 
+public class zadacha1909161
 {
 public static void main(String[] args)
 {
 Scanner scanner = new Scanner(System.in);
 
-	System.out.println("Длина катета a: ");      //ввод длины катета a
-	double a = scanner.nextDouble();	     //сканирование ввода и присваивание его а
-	System.out.println("Длина катета b: ");      //ввод длины катета b
-	double b = scanner.nextDouble();             //сканирование ввода и присваивание его b
-	double c = Math.sqrt(a * a + b * b);         //нахождение Гипотенузы
-	double P = a+b+c;                            //нахождение Периметра
-	double p = P/2;                              //нахождение Полупериметра
-	double S =Math.sqrt(p*(p-a)*(p-b)*(p-c));    //нахождение Площади
-	System.out.println("Гипотенуза равна: " +c); //вывод на экран Гипотенузы
-	System.out.println("Периметр равен: " +P);   //вывод на экран Периметра
-	System.out.println("Площадь: " +S);          //вывод на экран Площадь
+	System.out.println("Р”Р»РёРЅР° РєР°С‚РµС‚Р° a: ");      //РІРІРѕРґ РґР»РёРЅС‹ РєР°С‚РµС‚Р° a
+	double a = scanner.nextDouble();	     //СЃРєР°РЅРёСЂРѕРІР°РЅРёРµ РІРІРѕРґР° Рё РїСЂРёСЃРІР°РёРІР°РЅРёРµ РµРіРѕ Р°
+	System.out.println("Р”Р»РёРЅР° РєР°С‚РµС‚Р° b: ");      //РІРІРѕРґ РґР»РёРЅС‹ РєР°С‚РµС‚Р° b
+	double b = scanner.nextDouble();             //СЃРєР°РЅРёСЂРѕРІР°РЅРёРµ РІРІРѕРґР° Рё РїСЂРёСЃРІР°РёРІР°РЅРёРµ РµРіРѕ b
+	double c = Math.sqrt(a * a + b * b);         //РЅР°С…РѕР¶РґРµРЅРёРµ Р“РёРїРѕС‚РµРЅСѓР·С‹
+	double P = a+b+c;                            //РЅР°С…РѕР¶РґРµРЅРёРµ РџРµСЂРёРјРµС‚СЂР°
+	double p = P/2;                              //РЅР°С…РѕР¶РґРµРЅРёРµ РџРѕР»СѓРїРµСЂРёРјРµС‚СЂР°
+	double S =Math.sqrt(p*(p-a)*(p-b)*(p-c));    //РЅР°С…РѕР¶РґРµРЅРёРµ РџР»РѕС‰Р°РґРё
+	System.out.println("Р“РёРїРѕС‚РµРЅСѓР·Р° СЂР°РІРЅР°: " +c); //РІС‹РІРѕРґ РЅР° СЌРєСЂР°РЅ Р“РёРїРѕС‚РµРЅСѓР·С‹
+	System.out.println("РџРµСЂРёРјРµС‚СЂ СЂР°РІРµРЅ: " +P);   //РІС‹РІРѕРґ РЅР° СЌРєСЂР°РЅ РџРµСЂРёРјРµС‚СЂР°
+	System.out.println("РџР»РѕС‰Р°РґСЊ: " +S);          //РІС‹РІРѕРґ РЅР° СЌРєСЂР°РЅ РџР»РѕС‰Р°РґСЊ
 }
