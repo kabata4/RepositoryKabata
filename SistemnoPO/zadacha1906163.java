@@ -1,14 +1,14 @@
 import java.util.Scanner;
-public class zadacha1906163 
+public class zadacha1909163 
 	{
 	public static void main(String[] args) 
 	{
 	Scanner scanner = new Scanner(System.in);
-	System.out.println("Введите Радиус: ");         //ввод радиуса
+	System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ ГђГ Г¤ГЁГіГ±: ");         //ГўГўГ®Г¤ Г°Г Г¤ГЁГіГ±Г 
 	double R = scanner.nextDouble();             
-	double I = 2*Math.PI*R;                              //нахождение длины окружности
-	double S = Math.PI*Math.pow(R, 2);                   //нахождение площади круга
-	System.out.println("Длина окружности: "+I);     //вывод длины окружности
-	System.out.println("Площадь круга: "+S);        //вывод площади круга
+	double I = 2*Math.PI*R;                              //Г­Г ГµГ®Г¦Г¤ГҐГ­ГЁГҐ Г¤Г«ГЁГ­Г» Г®ГЄГ°ГіГ¦Г­Г®Г±ГІГЁ
+	double S = Math.PI*Math.pow(R, 2);                   //Г­Г ГµГ®Г¦Г¤ГҐГ­ГЁГҐ ГЇГ«Г®Г№Г Г¤ГЁ ГЄГ°ГіГЈГ 
+	System.out.println("Г„Г«ГЁГ­Г  Г®ГЄГ°ГіГ¦Г­Г®Г±ГІГЁ: "+I);     //ГўГ»ГўГ®Г¤ Г¤Г«ГЁГ­Г» Г®ГЄГ°ГіГ¦Г­Г®Г±ГІГЁ
+	System.out.println("ГЏГ«Г®Г№Г Г¤Гј ГЄГ°ГіГЈГ : "+S);        //ГўГ»ГўГ®Г¤ ГЇГ«Г®Г№Г Г¤ГЁ ГЄГ°ГіГЈГ 
 	}
 }
